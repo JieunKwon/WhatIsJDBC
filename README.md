@@ -53,3 +53,7 @@ These objects hold data retrieved from a database after you execute an SQL query
 > SQLException: 
 
 This class handles any errors that occur in a database application.
+
+# 7 Steps 
+1)  Load the driver
+
