@@ -42,7 +42,7 @@ Java can be used to write different types of executables, such as −
 
 # 7 Steps 
    
-    >
+    
     1. Load the driver
     2. Define the connection URL
     3. Establish the connection
