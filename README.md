@@ -29,7 +29,7 @@ Java can be used to write different types of executables, such as −
     
     to provide transparent connectivity to heterogeneous databases.
     The JDBC driver manager ensures that the correct driver is used to access each data source. 
-    The driver manager is capable of supporting multiple concurrent drivers connected to multiple heterogeneous databases.
+    The driver manager is capable of supporting multiple concurrent drivers 
 
 
 > JDBC Architecture
