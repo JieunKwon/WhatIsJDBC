@@ -15,7 +15,8 @@
     - Viewing & Modifying the resulting records.
     
     
-> JDBC is a specification that provides a complete set of interfaces that allows for portable access to an underlying database. Java can be used to write different types of executables, such as −
+> JDBC is a specification that provides a complete set of interfaces that allows for portable access to an underlying database. 
+Java can be used to write different types of executables, such as −
  
     - Java Applications
     - Java Applets
@@ -38,12 +39,25 @@
     - Java code calss JDBC library
     - JDBC loads a driver
     - Driver can find a particular database
- 
+
+# 7 Steps 
+   
+    >
+    1. Load the driver
+    2. Define the connection URL
+    3. Establish the connection
+    4. Create a statement object
+    5. Execute a query using the statement
+    6. Process the result
+    7. close the connection
+    
 # Common JDBC Components
  
 > DriverManager: 
 
-This class manages a list of database drivers. Matches connection requests from the java application with the proper database driver using communication sub protocol. The first driver that recognizes a certain subprotocol under JDBC will be used to establish a database Connection.
+This class manages a list of database drivers. 
+Matches connection requests from the java application with the proper database driver using communication sub protocol. 
+The first driver that recognizes a certain subprotocol under JDBC will be used to establish a database Connection.
 
 > Driver: 
 
@@ -65,6 +79,5 @@ These objects hold data retrieved from a database after you execute an SQL query
 
 This class handles any errors that occur in a database application.
 
-# 7 Steps 
-1)  Load the driver
+
 
