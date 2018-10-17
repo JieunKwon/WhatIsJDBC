@@ -81,5 +81,5 @@ This class handles any errors that occur in a database application.
 
   - getSQLState() : return 5 characters for SQL State Value   ex)42Y55
   - getErrorCode() : return integer value representing the error code   ex) 30000
-  
+  - printStackTrace() : standardized and generated automatically
 
